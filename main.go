@@ -11,7 +11,7 @@ import (
 
 const (
 	dbDriver      = "postgres"
-	dbSource      = "postgresql://postgres:postgres@localhost:5050/go_products?sslmode=disable"
+	dbSource      = "postgresql://postgres:postgres@localhost:5432/go_products?sslmode=disable"
 	serverAddress = "0.0.0.0:8000"
 )
 
